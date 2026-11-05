@@ -1,0 +1,7 @@
+h5py>=3.13
+numpy>=2.3
+pandas>=2.3
+pyarrow>=23.0
+scikit-learn>=1.7
+streamlit>=1.66
+plotly>=7.1

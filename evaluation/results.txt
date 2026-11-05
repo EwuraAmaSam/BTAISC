@@ -1,0 +1,28 @@
+Analysis run 2026-10-30T17:48:54
+
+labels by group (counts)
+worth_investigating  No  Yes
+group                       
+flagged               7    8
+unflagged            10    5
+
+precision (flagged judged worth investigating): 53%
+baseline  (unflagged judged worth investigating): 33%
+lift: 1.60
+unsure answers: 0 (left out of the rates above)
+
+result against the plan (precision >= 50% and lift >= 2.0): NOT MET
+
+per rule (3 episodes each, so read these as examples, not statistics)
+  repeated_cut_throughs      (Trade-off): 452=Yes, 338=No, 359=Yes
+  cautious_agent_took_cost   (Trade-off): 166=No, 220=No, 135=No
+  long_hazard_stay           (Persistent danger): 1365=Yes, 748=Yes, 1046=Yes
+  repeated_hazard_entries    (Persistent danger): 247=Yes, 281=Yes, 271=Yes, 338=No, 359=Yes
+  clean_success              (Instructive success): 403=No, 985=No, 818=No
+
+unflagged episodes you judged worth investigating (possible misses)
+  episode 113: Trade-off | nan
+  episode 927: Persistent danger | nan
+  episode 430: Persistent danger | nan
+  episode 216: Trade-off | nan
+  episode 1160: Persistent danger | nan

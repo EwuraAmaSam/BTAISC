@@ -1,0 +1,5 @@
+data/*.hdf5
+__pycache__/
+*.pyc
+.venv/
+data/processed/
